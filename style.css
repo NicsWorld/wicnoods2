@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background-color: #131316;
     color: #fff;
-    /* font-family: 'Dancing Script', cursive; */
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
@@ -34,8 +36,25 @@ section {
         transition: none;
     }
 }
-.logos {
+
+.logo, .logo2 {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.row {
+    display: flex;
+    margin: 0.5rem 0;
+}
+.row2 {
+    justify-content: center;
+}
+img {
+    height: 144px;
+    width: 144px;
+    background-color: #f5f6fa;
+    margin: 0 0.5rem;
 }
 .logo:nth-child(2) {
     transition-delay: 200ms;
@@ -45,4 +64,10 @@ section {
 }
 .logo:nth-child(4) {
     transition-delay: 600ms;
+}
+.logo2:nth-child(1) {
+    transition-delay: 800ms;
+}
+.logo2:nth-child(2) {
+    transition-delay: 1000ms;
 }
