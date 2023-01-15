@@ -9,7 +9,10 @@ body {
     padding: 0 5rem;
     margin: 0;
 }
-
+a {
+    /* text-decoration: none; */
+    color: inherit;
+}
 section {
     display: grid;
     place-items: center;
