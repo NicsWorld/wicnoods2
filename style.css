@@ -82,8 +82,13 @@ section {
 
     border-radius: 100%;
 }
+.intro {
+    position: relative;
+}
 .imgWrapper {
-    height: 100%;
+    position: absolute;
+    height: 4rem;
+    bottom: 2rem;
 }
 .imgWrapper::before {
     position: absolute;
@@ -112,5 +117,15 @@ section {
     }
     100% {
       opacity: 0;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logos {
+        display: flex;
+        flex-direction: column;;
+    }
+    .row {
+        display: unset;
     }
   }
