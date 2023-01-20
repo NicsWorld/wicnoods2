@@ -6,18 +6,19 @@ body {
     background-color: #131316;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    /* padding: 0 5rem;
-    margin: 0; */
 }
+
 a {
     color: inherit;
 }
+
 .container {
     display: grid;
     justify-content: center;
     align-items: center;
     padding: 0.5rem 2rem;
 }
+
 section {
     display: grid;
     place-items: center;
