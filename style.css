@@ -12,6 +12,9 @@ body {
 a {
     color: inherit;
 }
+.container {
+    display: grid;
+}
 section {
     display: grid;
     place-items: center;
