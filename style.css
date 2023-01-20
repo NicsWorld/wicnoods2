@@ -129,7 +129,10 @@ section {
     }
     .logos {
         display: flex;
-        flex-direction: column;;
+        flex-direction: column;
+    }
+    .logo {
+        margin: 1rem 0;
     }
     .row {
         display: unset;
