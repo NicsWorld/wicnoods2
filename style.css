@@ -92,7 +92,7 @@ section {
 .imgWrapper {
     position: absolute;
     height: 4rem;
-    bottom: 2rem;
+    bottom: 4rem;
 }
 .imgWrapper::before {
     position: absolute;
